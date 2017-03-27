@@ -1,0 +1,25 @@
+{
+  "name": "client-server-time-offset",
+  "version": "1.0.0",
+  "description": "Client/Server Time Offset Coding Challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tinytheyfon8/client-server-time-offset.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tinytheyfon8/client-server-time-offset/issues"
+  },
+  "homepage": "https://github.com/tinytheyfon8/client-server-time-offset#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "jquery": "^3.2.1",
+    "websocket.io": "^0.2.1"
+  }
+}
