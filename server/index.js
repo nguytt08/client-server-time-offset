@@ -2,6 +2,7 @@ var express = require('express');
 var path = require('path');
 var app = express();
 var server = require('http').createServer(app);
+var moment = require('moment');
 var io = require('socket.io')(server);
 
 app.use(express.static(path.join(__dirname, '../client')));
@@ -14,7 +15,11 @@ var serverTime = function () {
 app.get('/', function(req, res) {
   res.sendFile(path.resolve(__dirname + '/../client/index.html'));
 });
+
 serverTime();
+
+// var now = moment.;
+// console.log('moment time is:', now);
 
 io.on('connection', function(socket) {
   console.log('socket workinggggg');

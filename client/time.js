@@ -1,5 +1,5 @@
 var socket = io.connect('http://localhost:4000');
-var currentTime = Math.floor((new Date()).getTime());
+var currentTime = Math.floor(new Date().getTime());
 
 
 // socket.connect();
