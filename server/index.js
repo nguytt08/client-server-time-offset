@@ -26,6 +26,5 @@ var timeDifference = function(clientTime) {
   return difference;
 }
 
-var port = process.env.PORT || 4000
-console.log('App is listening on', port);
-server.listen(port);
+console.log('App is listening on 4000');
+server.listen(4000);
